@@ -36,3 +36,5 @@ yarn run deploy
 ```
 
 The frontend will be deployed at [local host](http://localhost:3000)
+
+![](screen.png)
