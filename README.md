@@ -1,18 +1,21 @@
-# SIMPLED DEX
+# A SIMPLE DEX
 
-`SGBT4 PT7210027 Mark Tan for the final asssignment of the Intermediate Blockchain module`
+SGBT4 PT7210027 Mark Tan for the final asssignment of the Intermediate Blockchain module<br/>
 This project is still buggy and require more work for a better UX
 
-## Quickstart ⏱ 
+### Dependencies 
 
-Install the following dependencies
 - [NodeJS>=10](https://nodejs.org/en/download/) 
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/) 
 - [Git](https://git-scm.com/downloads)
 
+### Quickstart
+
 Clone or fork the repo and install it
 
-`### yarn install`
+```bash
+yarn install
+```
 
 Edit your frontend at `App.js` under `packages/react-app/src`
 
