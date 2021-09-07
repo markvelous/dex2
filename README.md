@@ -19,22 +19,20 @@ yarn install
 
 Edit your frontend at `App.js` under `packages/react-app/src`
 
-Open a new terminal and start the local blockchain using [Buidler](https://buidler.dev/tutorial/)
-
-```bash
-yarn run chain
-```
-
-Run the frontend at [local host](http://localhost:3000)
-
-```bash
-yarn start
-```
-
-Open a new terminal to compile and deploy the contracts:
+Compile the contracts
 
 ```bash
 yarn run compile
+```
+
+Run each of the following in new terminals
+
+```bash
+yarn run chain
+
+yarn start
 
 yarn run deploy
 ```
+
+The frontend will be deployed at [local host](http://localhost:3000)
