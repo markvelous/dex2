@@ -38,12 +38,3 @@ yarn run compile
 
 yarn run deploy
 ```
-## Ready to ship it?
-
-Deploy the static site and go live with the DApp!
-
-```bash
-yarn run build
-
-yarn run ship
-```
