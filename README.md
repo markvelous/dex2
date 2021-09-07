@@ -1,59 +1,39 @@
 # 🏗 scaffold-eth
 
-> TL;DR: **fork this repo** for an Ethereum dev stack focused on _fast product iteration_
+'SGBT4 PT7210027 Mark Tan for the final asssignment of the Intermediate Blockchain module'
 
-Chapter 0: 🧫 [Building on Ethereum in 2020](https://medium.com/@austin_48503/building-on-ethereum-in-2020-dca52eda5f00)
+## Quickstart ⏱ 
 
-Chapter 1: 🛠 [Programming Decentralized Money](https://medium.com/@austin_48503/programming-decentralized-money-300bacec3a4f)
+Install the following dependencies
+- [NodeJS>=10](https://nodejs.org/en/download/) 
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/) 
+- [Git](https://git-scm.com/downloads)
 
-Chapter 2: 🗳 [Personal Token Voting](https://medium.com/@austin_48503/personal-token-voting-73b44a598d8e)
+Clone or fork the repo and install it
 
-
----
-
-## ⏱ Quickstart:
-
-First, you'll need [NodeJS>=10](https://nodejs.org/en/download/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads) installed.
-
-💾 Clone/fork repo and then install:
-
-```bash
-git clone https://github.com/austintgriffith/scaffold-eth.git rad-new-dapp
-
-cd rad-new-dapp
-
+````bash
 yarn install
 ```
 
-> ⌚️ This will take some time. How about a quick tour of the file structure with your favorite code editor?
+Edit your frontend at `App.js` under `packages/react-app/src`
 
-> 💡 Sometimes the install throws errors like "node-gyp", try the next step even if you see problems.
-
----
-
-⚛️ [React](https://reactjs.org/tutorial/tutorial.html) frontend powered by 📱[create-eth-app](https://github.com/PaulRBerg/create-eth-app) using 🔧[Ethers.js](https://docs.ethers.io/ethers.js/html/index.html) and the 🦄[Uniswap](https://uniswap.org/docs/v1) template:
-
-```bash
-yarn start
-```
-
-📝 Edit your frontend `App.js` in `packages/react-app/src` and open http://localhost:3000
-
----
-
-⛓ Start your local blockchain powered by 👷‍♀️[Buidler](https://buidler.dev/tutorial/):
+Open a new terminal and start the local blockchain using [Buidler](https://buidler.dev/tutorial/)
 
 ```bash
 yarn run chain
 ```
 
-**Note**: You'll need to run this command in a new terminal window
+Run the frontend at [local host](http://localhost:3000)
 
-> 🛠 [Use this eth.build](https://eth.build/build#1a21b864c6bcdb901070b64965fae825cdfc11b1915d74f058f00b114a8c129a) to double-check your local chain and account balances
+```bash
+yarn start
+```
 
----
+Open a new terminal.
 
-⚙️ Compile your contracts:
+Use [eth.build](https://eth.build/build#1a21b864c6bcdb901070b64965fae825cdfc11b1915d74f058f00b114a8c129a) to check the local chain and account balances
+
+Compile your contracts:
 
 ```bash
 yarn run compile
@@ -359,39 +339,21 @@ const price = useExchangePrice(mainnetProvider);
 
 ---
 
-📚 OpenZeppelin Contracts -- TODO
+📚 OpenZeppelin Contracts 
 
-You can import any of the [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts):
+Import any of the [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts)
 
 ```jsx
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 ```
 
-🛰 The Graph -- TODO
-
-⛽️ GSN -- TODO
-
----
-
-## 📤 Save to your Git
-
-Create a new repo with the same name as this project and then:
-
-```bash
-git remote add origin https://github.com/**YOUR_GITHUB_USERNAME**/**YOUR_COOL_PROJECT_NAME**.git
-git push -u origin master
-```
-
----
 
 ## 🛳 Ship it!
 
-You can deploy your static site and your dapp can go live:
+Deploy the static site and go live with the DApp!
 
 ```bash
 yarn run build
 
 yarn run ship
 ```
-
-> TODO: GITHUB PAGES OR SURGE TUTORIAL?
