@@ -95,11 +95,16 @@ module.exports = {
   defaultNetwork: 'localhost',
   networks: {
     localhost: {
-      //url: 'https://rinkeby.infura.io/v3/2717afb6bf164045b5d5468031b93f87',
+
+      //url: 'https://rinkeby.infura.io/v3/618b25aa58eb434f867378c386f3f44c'
+      //for deployment to Rinkeby; ditched this due to buggy codes & focused on DEX3 instead
+
       url: 'http://localhost:8545',
+      
       /*accounts: {
         mnemonic: "**SOME MNEMONIC**"
-      },*/
+      */
+
     },
   },
   solc: {

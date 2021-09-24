@@ -1,5 +1,9 @@
 const SmartContractWallet = artifacts.require("SmartContractWallet");
+
+// two simple tests
+
 describe("My Dapp", function() {
+
   let accounts;
   let myContract;
   before(async function() {
