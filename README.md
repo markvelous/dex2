@@ -1,6 +1,5 @@
 # A SIMPLE DEX 🤝
 
-SGBT4 PT7210027 Mark Tan for the final asssignment of the Intermediate Blockchain module<br/>
 This project is still buggy and require more work for a better UX
 
 ### Dependencies 
